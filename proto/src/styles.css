@@ -1,0 +1,11 @@
+@import url("/proto/src/css/vendor/bulma.css");
+@import url("/proto/src/css/base/typography.css");
+@import url("/proto/src/css/abstracts/variables.css");
+@import url("/proto/src/css/base/base.css");
+@import url("/proto/src/css/layout/header.css");
+@import url("/proto/src/css/components/custom-button.css");
+@import url("/proto/src/css/components/custom-input.css");
+@import url("/proto/src/css/components/custom-form.css");
+@import url("/proto/src/css/components/custom-title.css");
+@import url("/proto/src/css/pages/home.css");
+@import url("/proto/src/css/pages/login.css");

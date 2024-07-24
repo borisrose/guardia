@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title-page"></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--
+        ceci est un commentaire : mise à part la balise script , 
+        je vous conseille de ne mettre d'une balise div identifié  
+        en l'occurrence j'ai donné un identifiant "root" à la div
+    -->
+
+    <div id="root"></div>
+
+    <!-- 
+        respectons le principe de séparation des responsabilités
+        l'index.html a la responsabilité de contenir le html 
+
+        le fichier style.css , la mise en forme de la page 
+
+        le main.js, le script javascript
+
+        Si je veux moduler le code et ne pas tout mettre dans le main.js je dois ajouter l'attribut type
+        et lui donner la valeur module autrement dit j'informe que je vais utiliser le système d'importation de fichiers dans main.js
+    -->
+    <script  type="module"  src="./main.js"></script>
+    
+</body>
+</html>

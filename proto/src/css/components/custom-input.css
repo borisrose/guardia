@@ -1,0 +1,16 @@
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    margin-block: 5px;
+    width: 100%;
+
+    input {
+        padding: 10px;
+        border: none;
+        width: 100%;
+        
+        &:focus {
+            outline: solid var(--primary-color) 3px;
+        }
+    }
+}

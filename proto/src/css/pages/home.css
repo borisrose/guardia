@@ -1,0 +1,22 @@
+.home__main {
+  flex-direction: column;
+  background-image: url("/proto/assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  
+
+  & > section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+
+  }
+  button {
+    align-self: center;
+
+  }
+
+}

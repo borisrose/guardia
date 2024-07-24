@@ -1,0 +1,15 @@
+.login__main {
+    flex-direction: column;
+    background-image: url("/proto/assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+
+    & > section {
+        width: 400px;
+        margin: auto;
+        box-shadow: 0 0 5px #000;
+        padding: 10px;    
+    }
+}
